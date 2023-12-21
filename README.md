@@ -107,6 +107,7 @@ The process involves:
    - Provide itinerary recommendations based on user preferences
 
    Ref: 
+   
    https://github.com/Maoelan/indonesia-tourism-destination-recommendation/tree/main
    https://github.com/rafka-imandaputra/Bandung-tourist-destination-recommendation-system/tree/main
    https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination/code
