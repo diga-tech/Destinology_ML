@@ -58,3 +58,55 @@ The process involves:
    - Displaying the model's performance results.
    - Saving the trained model as "Landmark-R.h5" in the "Model" folder.
 4. The model saved as **Landmark-R.h5**
+
+
+## Tourism, Cultural, and Hospitality - Itinerary Recommendation
+
+### Overview
+This repository contains the code for a Itinerary Recommendation project focusing on tourist attractions in Indonesia. The project uses a collaborative filtering model which produces tourist destination recommendations that match traveler preferences.
+
+### Dataset
+This project uses a dataset from kaggle in providing itinerary recommendations. the dataset consists of three cities such as Jakarta, Surabaya, Yogyakarta. in this project the dataset used consists of 3 files:
+
+tourism_ with _id.csv
+user.csv
+tourism_rating.csv
+
+SC Dataset: https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination
+
+### Architecture
+Machine learning model in this project by creating a recommendernet class which performs the process of embedding the user and the next place using sigmoid activation. the model is compiled with binary crossentropy, Adam as an optimizer, and metric evaluation using root mean squared. After that the user will input the city and price range later the encoding results will provide the results of tourist attractions recommendations based on user preferences. 
+
+### Performance
+![Root Mean Square Error](Itinerary-Planner/documentation/RMS.png)
+
+
+![Recommendation](Itinerary-Planner/documentation/hasil rekomendasi.png)
+
+
+### Run The Model
+Requirement to install: tensorflow, sklearn, pandas, seaborn, and matplotlib.
+1. Clone the repository:
+```
+git clone https://github.com/diga-tech/Destinology_ML
+```
+2. Installation:
+```
+pip install [the packcage]
+```
+3. Open the **Itinerary-Planner/using_model.py"** and execute all cells sequentially from top to bottom.
+The process involves:
+   - Importing necessary libraries such as NumPy, Pandas,  and TensorFlow.
+   - Creating a DataFrame based on the dataset.
+   - Creating Encoding label user and place for identifier 
+   - Mapping the label place and user to rating dataframe
+   - Splitting the data into training and validation.
+   - Creating Recommendernet Class
+   - Compiling and training the model.
+   - Saving the trained model
+   - Provide itinerary recommendations based on user preferences
+
+   Ref: 
+   https://github.com/Maoelan/indonesia-tourism-destination-recommendation/tree/main
+   https://github.com/rafka-imandaputra/Bandung-tourist-destination-recommendation-system/tree/main
+   https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination/code

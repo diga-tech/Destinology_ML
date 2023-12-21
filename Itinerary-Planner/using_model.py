@@ -71,7 +71,7 @@ user_place_array = np.hstack(
     ([[user_encoder]] * len(place_not_visited), place_not_visited)
 )
 
-# Mengambil top 7 recommendation
+# Memberikan 20 Rekomendasi Tempat wisata
 user_place_array = tf.cast(user_place_array, tf.int64)
 ratings = model.predict(user_place_array).flatten()
 
