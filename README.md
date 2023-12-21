@@ -12,7 +12,8 @@ Member of Machine Learning
 This repository contains the code for a landmark recognition project focusing on landmarks in Indonesia. The project utilizes TensorFlow and Convolutional Neural Networks (CNN) to achieve accurate landmark recognition.
 
 ### Dataset
-Our dataset comprises a total of 1.749 images distributed across 6 classes, with the following specifications.
+The dataset includes a diverse collection of images featuring various landmarks in Indonesia. Preprocessing steps are included to ensure optimal model training.
+Our dataset comprises a total of **1.749** images distributed across 6 classes, with the following specifications.
 | Class | Amount of Images |
 |:------:|:----------:|
 | Candi-Borobudur | 249 Images |
