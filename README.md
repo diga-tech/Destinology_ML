@@ -81,7 +81,7 @@ Machine learning model in this project by creating a recommendernet class which 
 ![Root Mean Square Error](Itinerary-Planner/documentation/RMS.png)
 
 
-![Recommendation](Itinerary-Planner/documentation/hasil rekomendasi.png)
+![Recommendation](Itinerary-Planner/documentation/hasilrekomendasi.png)
 
 
 ### Run The Model
