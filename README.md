@@ -40,7 +40,7 @@ The primary model employs transfer learning from MobileNetV2, incorporating addi
 Requirement to install: tensorflow, sklearn, pandas, seaborn, and matplotlib.
 1. Clone the repository:
 ```
-git clone https://github.com/mvrsa/Machine-Learning-for-Landmark-Recognition.git
+git clone https://github.com/diga-tech/Destinology_ML.git
 ```
 2. Installation:
 ```
