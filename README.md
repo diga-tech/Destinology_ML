@@ -1,6 +1,6 @@
 # ML Repository - Destinology (Team CH2-PS397)
 
-*Member of Machine Learning*
+**Member of Machine Learning Team:**
 | Member | Student ID | University |
 |:------:|:----------:|:----------:|
 | Muhammad Fakhriza Fauzan Didaputra | M011BSY1707 | Universitas Padjadjaran|
