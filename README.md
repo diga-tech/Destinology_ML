@@ -35,7 +35,7 @@ The primary model employs transfer learning from MobileNetV2, incorporating addi
 #### Classification Report
 ![Report](Landmark-Recognition/Documentation/Report.jpg)
 
-### Usage
+### Run The Model
 Requirement to install: tensorflow, sklearn, pandas, seaborn, and matplotlib.
 1. Clone the repository:
 ```
@@ -45,5 +45,15 @@ git clone https://github.com/mvrsa/Machine-Learning-for-Landmark-Recognition.git
 ```
 pip install [the packcage]
 ```
-3. Run the main script **Transfer Learning.ipynb**
+3. Open the **"Transfer Learning.ipynb"** and execute all cells sequentially from top to bottom.
+The process involves:
+   - Importing necessary libraries such as NumPy, Pandas, Matplotlib.pyplot, and TensorFlow.
+   - Creating a DataFrame based on the dataset.
+   - Splitting the data into training, validation, and test sets.
+   - Establishing an ImageDataGenerator for data augmentation.
+   - Loading the pre-trained MobileNetV2 model.
+   - Extending MobileNetV2 with additional custom layers.
+   - Compiling and training the model.
+   - Displaying the model's performance results.
+   - Saving the trained model as "Landmark-R.h5" in the "Model" folder.
 4. The model saved as **Landmark-R.h5**
