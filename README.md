@@ -111,3 +111,7 @@ The process involves:
    https://github.com/Maoelan/indonesia-tourism-destination-recommendation/tree/main
    https://github.com/rafka-imandaputra/Bandung-tourist-destination-recommendation-system/tree/main
    https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination/code
+
+   ## Other Path Repository
+   ### [Cloud Computing](https://github.com/dhiyarisalah/destinology)
+   ### [Mobile Development](https://github.com/rizfirsy-gh/destinology-app)
