@@ -46,4 +46,4 @@ git clone https://github.com/mvrsa/Machine-Learning-for-Landmark-Recognition.git
 pip install [the packcage]
 ```
 3. Run the main script **Transfer Learning.ipynb**
-4. The model saved as **Landmark-r.h5**
+4. The model saved as **Landmark-R.h5**
