@@ -27,13 +27,13 @@ The primary model employs transfer learning from MobileNetV2, incorporating addi
 
 ### Performance
 #### Accuracy
-![Accuracy](Landmark-Recognition/Documentation/Accuracy.jpg)
+![Accuracy](Documentation/Accuracy.jpg)
 
 #### Loss
-![Loss](Landmark-Recognition/Documentation/Loss.jpg)
+![Loss](Documentation/Loss.jpg)
 
 #### Classification Report
-![Report](Landmark-Recognition/Documentation/Report.jpg)
+![Report](Documentation/Report.jpg)
 
 ### Run The Model
 Requirement to install: tensorflow, sklearn, pandas, seaborn, and matplotlib.
